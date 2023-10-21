@@ -173,7 +173,7 @@ void display(void){
     				glRotatef((GLfloat) indicador, -1, 0, 1);
     				glTranslatef(0, 0.2, 0);
     				
-    				//polegar
+    				//indicador
     				glPushMatrix();
     					glRotatef(90, 0, 0, 1);
     					glScalef(0.5, 0.25, 0.25);
@@ -188,7 +188,7 @@ void display(void){
     				glRotatef((GLfloat) anelar, 1, 0, 1);
     				glTranslatef(0, 0.2, 0);
     				
-    				//polegar
+    				//anelar
     				glPushMatrix();
     					glRotatef(90, 0, 0, 1);
     					glScalef(0.5, 0.25, 0.25);
